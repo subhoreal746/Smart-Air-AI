@@ -14,7 +14,7 @@ MODEL_FILE = "air_quality_model.pkl"
 
 
 def voltage_to_aqi(voltage):
-    # Mapping 0.2V (Clean) to 3.0V (Danger) into a 0-500 AQI scale
+   
     aqi = ((voltage - 0.2) / (3.0 - 0.2)) * 500
     return int(max(0, min(500, aqi)))
 
