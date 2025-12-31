@@ -1,0 +1,6 @@
+streamlit
+pandas
+paho-mqtt
+scikit-learn
+joblib
+streamlit-echarts
